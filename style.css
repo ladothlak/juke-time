@@ -1,0 +1,52 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(https://m.media-amazon.com/images/G/01/sm/amped/rocketleague/desktop_hero_1x._CB436528431_.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.buffer {
+  height: 5rem;
+}
+
+h1 {
+  color: red;
+  transition: 1s;
+  text-shadow: 5px black;
+  border: 10px black;
+}
+
+h1:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+.btn {
+    border-radius: 300px;
+    font-family: "Calibri", "Times New Roman";
+    text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: grey;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  background-color: #888888;
+  border-color: red;
+}
+
+.btn-primary active {
+  background-color: red;
+  border-color: red;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
